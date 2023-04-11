@@ -37,8 +37,7 @@ class GameBoard extends StatefulWidget {
 }
 
 class GameBoardState extends State<GameBoard> {
-  List<List<String>> _board =
-      List<List<String>>.generate(3, (_) => List<String>.filled(3, ''));
+  List<List<String>> _board = List<List<String>>.generate(3, (_) => List<String>.filled(3, ''));
   bool _playerTurn = true; // true for 'X', false for 'O'
 
   @override
